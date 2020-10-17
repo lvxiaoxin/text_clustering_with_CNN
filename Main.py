@@ -32,7 +32,7 @@ if __name__ == "__main__":
     output = model.layers[-2].output
     model_penultimate = Model(input, output)
 
-    H = model_penultimate.predict(X)
+    H = model_penultimate.predict(core_info["X"])
     print("The target deep features representation shape: {}".format(H.shape))
 
     # Step 5 - Fit into KMeans
