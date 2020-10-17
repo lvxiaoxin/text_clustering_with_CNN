@@ -47,4 +47,5 @@ if __name__ == "__main__":
 
     # Step 6 - Calculate the cosine similarity among the 18 clusters' center point
     similarities = calculate_similarity_matrixs(sklearn_kmeans.cluster_centers_)
-    print(similarities)
+    print("Similarities among clusters centers:")
+    print(np.array(similarities))
