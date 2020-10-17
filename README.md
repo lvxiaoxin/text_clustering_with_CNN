@@ -1,6 +1,4 @@
-#ao text_clustering_with_CNN
-
-
+# text_clustering_with_CNN
 
 This repo re-implemented the algorighm in <b><i>Self-Taught Convolutional Neural Networks for Short Text Clustering<i></b>
 
