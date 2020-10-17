@@ -8,7 +8,7 @@ To run this repo, just install requirements and run the <i>main.py</i>.
 
 The goal of this algorithm is to get the deep feature respresentations for input sentences.
 
-Here is an sample output.
+Here is a sample output.
 ![output](./result.png)
 
 Ref: 
